@@ -1,0 +1,67 @@
+<style  type="text/css">
+
+	.article{
+		width:300px;
+		padding: 20px;
+	}
+	.article table{
+		width: 50%;
+		border: none;
+
+	}
+	.article th {
+		background-color: #4CAF50;
+		color: white;
+	}
+	.article td{
+		margin-left: 2px;
+	}
+	.article input[type = 'text']{
+		width: 80px;
+		background: transparent;
+		border : none;
+		outline: none;
+		padding: 10px;	
+		border-bottom: 1px dashed;
+		transition: width 0.25s;
+	}
+	.article input[type = 'text']:hover{
+		width: 300px;
+	}
+	.article input[type = 'number']{
+		width:80px;
+		background: transparent;
+		border : none;
+		border-bottom: 1px dashed;
+		outline: none;
+		padding:10px;
+		 		
+	}
+	.article input[type = 'date']{
+		width:180px;
+		background: transparent;
+		border : none;
+		outline: none;
+		padding:8px;
+		transition: width 0.50s;
+		cursor: text;		
+	}
+	.article input[type = 'submit']{
+		background: transparent;
+		color: #4CAF50;
+		border: none;
+		outline: none;
+		padding: 10px;
+		font-size: 25px;
+		cursor: pointer;
+	}
+	.article input[type = 'reset']{
+		background: transparent;
+		color: red;
+		border: none;
+		outline: none;
+		padding: 10px;
+		font-size: 25px;
+		cursor: pointer;
+	}
+</style>
